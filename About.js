@@ -18,8 +18,8 @@ modeSwitch.addEventListener("click", () => {
 });
 
 whatsapp.addEventListener("click", () => {
-  $(".whatsapp-num").style.display = 'none';
-  setTimeout(()=>{
+  $(".whatsapp-num").style.display = "none";
+  setTimeout(() => {
     $(".whatsapp-num").show();
-  },2000);
+  }, 2000);
 });
