@@ -13,6 +13,7 @@ Juniper (#758A8D): RGB(117, 138, 141) */
 html {
   overflow: scroll;
   overflow-x: hidden;
+  
 }
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
@@ -40,6 +41,7 @@ html {
   justify-content: center;
   overflow-x: hidden;
   flex-wrap: wrap;
+  
 }
 .dark .main {
   background: url(../Images/About-light.jpg);
@@ -61,6 +63,7 @@ html {
 
 body {
   transition: var(--trans-04);
+  zoom: 1;
 }
 body.dark {
   --text-color: rgb(255, 255, 255);
@@ -430,12 +433,12 @@ section.home {
 
 }
 .dark .home .home-center .home-img {
-  background: url(../Images/home-light.png);
-  background-size: cover;
+  background: url(../Images/home-light.png) no-repeat center;
+  background-size: contain;
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: #000;
+  
 }
 
 
