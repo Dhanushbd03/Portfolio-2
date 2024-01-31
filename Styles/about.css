@@ -773,12 +773,13 @@ section.about .edu-text h2 {
   .home-center .home-content {
     height: 80%;
     justify-content: center;
+    font-size: 2.6rem;
   }
   .home-content .text-h5 {
     color: rgb(101, 152, 208);
   }
   .home-content .text-h1 {
-    line-height: 6rem;
+    line-height: 5rem;
   }
   .home-content .text-h4 {
     line-height: 3rem;
